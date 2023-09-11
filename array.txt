@@ -1,0 +1,28 @@
+
+数组：
+1.动态初始化（指定长度）
+格式：数组存储的数据类型[ ] 数组名字 = new 数组存储的数据类型[数组长度];
+数组存储的数据类型 数组名字[ ] = new 数组存储的数据类型[数组长度];
+
+int[] test = new int[5]
+int test[] = new int[4]
+
+
+string[] test = new string[6]
+string test[] = new string[5]
+
+
+long[] test = long[5]
+long test[] = long[7]
+
+2.静态初始化（指定内容）
+格式：数据类型[] 数组名 = new 数据类型[]{元素1,元素2,元素3…};
+
+int[] test = new int[]{1,2,3,4,5};
+
+String[] test = new String[]{2,3,4,5}
+
+3. 静态初始化省略格式（不能拆分）
+格式：数据类型[] 数组名 = {元素1,元素2,元素3…};
+
+int[] test = {1,2,3,4};
